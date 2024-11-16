@@ -1,0 +1,7 @@
+git config --global user.email="lucashlx@gmail.com"
+git config --global user.name="Lucas Trindade"
+cd /home/lucas/Documents/git
+git init 
+git add . # Add all files status staged
+git add --all-files # Add all files status staged
+git rm --cached index.html # Remove um arquivo do status staged
